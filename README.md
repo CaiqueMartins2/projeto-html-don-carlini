@@ -1,5 +1,12 @@
 # entrega-cid
 
+# Autor e Colaboradores
+
+Desenvolvido por Caique Martins Santos,
+Antoni Nsona Senga, 
+Aquiles Santana da Silva,
+Brenno Lima do Vale,
+Erin Jesus Olivera Calvi.
 
 # Don Carlini Ristorante
 
@@ -53,10 +60,4 @@ Como é um site estático, não é necessário instalar dependências.
    Botão direito em index.html > Open with Live Server
    ```
 
-# Autor e Colaboradores
 
-Desenvolvido por Caique Martins Santos,
-Antoni Nsona Senga, 
-Aquiles Santana da Silva,
-Brenno Lima do Vale,
-Erin Jesus Oliveira Calvi.
