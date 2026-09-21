@@ -3,7 +3,7 @@
 # Autor e Colaboradores
 
 Desenvolvido por Caique Martins Santos,
-Antoni Nsona Senga, 
+Antonio Nsona Senga, 
 Aquiles Santana da Silva,
 Brenno Lima do Vale,
 Erin Jesus Olivera Calvi,
