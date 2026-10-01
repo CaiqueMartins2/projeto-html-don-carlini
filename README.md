@@ -53,7 +53,7 @@ entrega-cid/
 
 # Validação W3C 
 
-Verificamos o código no W3C Validator usando de base o index.html, o Validator apresentou erros que tinha então os corrigimos e validamos novamente e o código não apresentava mais nenhum erro ou inconsistência
+Verificamos o código no W3C Validator usando de base o index.html, o Validator apresentou erros que tinha então os corrigimos e validamos novamente e o código não apresentava mais nenhum erro ou inconsistência e com base no index fizemos e corrigimos as outras páginas.
 
 # Como executar o projeto
 
