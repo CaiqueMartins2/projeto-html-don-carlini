@@ -53,6 +53,8 @@ entrega-cid/
 
 # Validação W3C 
 
+Verificamos o código no W3C Validator usando de base o index.html, o Validator apresentou erros que tinha então os corrigimos e validamos novamente e o código não apresentava mais nenhum erro ou inconsistência
+
 # Como executar o projeto
 
 Como é um site estático, não é necessário instalar dependências.
