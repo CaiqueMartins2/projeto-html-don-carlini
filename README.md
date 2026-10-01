@@ -17,6 +17,10 @@ Site institucional do "Don Carlini Ristorante", desenvolvido, por enquanto, apen
 
 Site vitrine para apresentar o restaurante Don Carlini, com informações sobre o cardápio, ambiente, localização e formas de contato/reserva.
 
+# Visita a empresa
+
+Durante o desenvolvimento do projeto un dos integrantes do grupo realizou uma visita ao Don Carlini Ristorante, com o objetivo de conhecer melhor o estabelecimento e obter informações que pudessem contribuir para a elaboração do projeto.
+
 # Estrutura de pastas
 
 entrega-cid/
@@ -46,6 +50,8 @@ entrega-cid/
 # Tecnologias utilizadas
 
 - HTML5 — estrutura e conteúdo de todas as páginas
+
+# Validação W3C 
 
 # Como executar o projeto
 
