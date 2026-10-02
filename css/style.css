@@ -1,3 +1,69 @@
 /* Adicionar Fonte Merriweather */
-/* Cor de fundo: Bege */.
-.
+/* Cor de fundo: Bege */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Cabeçalho */
+.header {
+    width: 100%;
+    min-height: 90px;
+
+    display: flex;
+    align-items: center;
+
+    padding: 5px 30px;
+
+    background-color: #222;
+}
+
+/* Logo */
+.logo img {
+    display: block;
+    border-radius: 50%;
+}
+
+/* Nome do restaurante */
+.nome-restaurante {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+
+    margin-left: 15px;
+    margin-right: 30px;
+}
+
+/* Navbar */
+.nav-bar {
+    flex: 1;
+}
+
+/* Lista de links */
+.nav-list {
+    list-style: none;
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+    gap: 20px;
+}
+
+/* Links */
+.nav-list a {
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+/* Quando passar o mouse */
+.nav-list a:hover {
+    color: #d4af37;
+}
