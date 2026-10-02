@@ -5,9 +5,7 @@
 Desenvolvido por Caique Martins Santos,
 Antonio Nsona Senga, 
 Aquiles Santana da Silva,
-Brenno Lima do Vale,
-Erin Jesus Olivera Calvi,
-Andrey Azevedo Veloso.
+Erin Jesus Olivera Calvi.
 
 # Don Carlini Ristorante
 
