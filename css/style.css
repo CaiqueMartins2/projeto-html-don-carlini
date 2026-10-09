@@ -1,5 +1,6 @@
 /* Adicionar Fonte Merriweather */
-/* Cor de fundo: Bege */
+
+
 
 * {
     margin: 0;
@@ -7,9 +8,9 @@
     box-sizing: border-box;
 }
 
+/* Fonte padrão do site */
 body {
-    font-family: Arial, sans-serif;
-    background-color: beige;
+    font-family: 'Merriweather', serif;
 }
 
 /* Cabeçalho */
@@ -23,6 +24,7 @@ body {
     padding: 5px 30px;
 
     background-color: #222;
+    
 }
 
 /* Logo */
