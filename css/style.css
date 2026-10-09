@@ -121,3 +121,7 @@ body {
 .btn-cardapio:hover {
     background-color: #641414;
 }
+
+p {
+    line-height: 1.8;
+}
