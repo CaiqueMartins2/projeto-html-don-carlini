@@ -126,8 +126,6 @@ p {
     line-height: 1.8;
 }
 
-.prato p,
-.bebida p,
-.sobremesa p {
+article {
     line-height: 1.8;
 }
