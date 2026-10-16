@@ -108,7 +108,7 @@ body {
     margin-bottom: 35px;
 }
 
-.btn-cardapio {
+.btn-opcoes {
     display: inline-block;
     padding: 14px 28px;
     background-color: #8b1e1e;
@@ -118,7 +118,7 @@ body {
     transition: background-color 0.3s;
 }
 
-.btn-cardapio:hover {
+.btn-opcoes:hover {
     background-color: #641414;
 }
 
