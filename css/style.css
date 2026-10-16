@@ -116,6 +116,7 @@ body {
     text-decoration: none;
     border-radius: 4px;
     transition: background-color 0.3s;
+    gap: 15px;
 }
 
 .btn-opcoes:hover {
