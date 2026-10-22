@@ -4,18 +4,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Don Carlini Ristorante</title>
+
+    <title>Don Carlini Ristorante - Sobre Nós</title>
 
     <link rel="stylesheet" href="../css/style.css">
+</head>
 
+<body>
+
+    <!-- Cabeçalho da página -->
     <header class="header">
-        <img src="../assets/img/logoDonCarlini.jpg" width="80" height="80">
-        <div class="logo">Don Carlini Ristorante</div>
-        
-        <nav class="nav-bar">
+
+        <img
+            src="../assets/img/logoDonCarlini.jpg"
+            width="80"
+            height="80"
+            alt="Logo do Don Carlini Ristorante"
+        >
+
+        <div class="logo">
+            Don Carlini Ristorante
+        </div>
+
+        <!-- Menu de navegação principal -->
+        <nav class="nav-bar" aria-label="Navegação principal">
+
             <ul class="nav-list">
                 <li><a href="../index.html">Home</a></li>
-                <li><a href="sobreNos.html">Sobre Nós</a></li>
+                <li>
+                    <a href="sobreNos.html" aria-current="page">
+                        Sobre Nós
+                    </a>
+                </li>
                 <li><a href="cardapio.html">Cardápio</a></li>
                 <li><a href="termosUso.html">Termos de Uso</a></li>
                 <li><a href="faq.html">Perguntas Frequentes</a></li>
@@ -25,20 +45,219 @@
                 <li><a href="galeria.html">Galeria</a></li>
                 <li><a href="contatos.html">Contatos</a></li>
             </ul>
+
         </nav>
+
     </header>
-</head>
 
-<main>
-    <body>
-        
+    <!-- Conteúdo principal da página -->
+    <main>
 
-        <h1>Sobre Nós</h1>
+        <!-- Apresentação da página -->
+        <section class="hero">
 
-        <p>Localizado no tradicional bairro da Mooca, em São Paulo, o Don Carlini é um restaurante italiano de inspiração familiar que celebra a culinária clássica da Itália. Com receitas autênticas, massas artesanais, ingredientes frescos e um ambiente acolhedor em um casarão histórico, proporcionamos uma experiência gastronômica única. </p>
-    </body>    
-</main>
+            <div class="hero-conteudo">
 
-<footer>
-    Todos os direitos reservados ©2026 Don Carlini Ristorante
-</footer>
+                <h1>Sobre Nós</h1>
+
+                <h2>
+                    Tradição, sabor e hospitalidade em cada detalhe.
+                </h2>
+
+                <p>
+                    Conheça nossa história e descubra o que torna
+                    o Don Carlini Ristorante um lugar especial
+                    para apreciar a culinária italiana.
+                </p>
+
+            </div>
+
+        </section>
+
+        <!-- História e apresentação do restaurante -->
+        <section class="sobre-nos" aria-labelledby="titulo-sobre">
+
+            <h2 id="titulo-sobre">
+                Uma história de tradição e sabor italiano
+            </h2>
+
+            <article class="historia-restaurante">
+
+                <h3>
+                    A paixão pela culinária italiana
+                </h3>
+
+                <p>
+                    Localizado no tradicional bairro da Mooca, em São Paulo,
+                    o Don Carlini Ristorante é um restaurante de inspiração
+                    familiar dedicado à culinária italiana. Sua proposta
+                    valoriza os sabores tradicionais da Itália, combinando
+                    receitas clássicas, cuidado no preparo e o prazer de
+                    compartilhar uma boa refeição.
+                </p>
+
+                <p>
+                    A gastronomia italiana é marcada pela valorização
+                    dos ingredientes, pela diversidade de suas receitas
+                    e pela importância das refeições como momentos de
+                    convivência. Essa tradição inspira a experiência
+                    oferecida pelo Don Carlini, que busca reunir sabor,
+                    qualidade e acolhimento à mesa.
+                </p>
+
+            </article>
+
+            <article class="historia-restaurante">
+
+                <h3>
+                    Massas artesanais e ingredientes selecionados
+                </h3>
+
+                <p>
+                    As massas artesanais e os ingredientes frescos ocupam
+                    um lugar importante na identidade da culinária italiana.
+                    No Don Carlini, essa valorização se reflete em uma
+                    proposta gastronômica que celebra os sabores clássicos
+                    e a diversidade dos pratos italianos.
+                </p>
+
+                <p>
+                    Do almoço a um jantar especial, cada visita é uma
+                    oportunidade para explorar o cardápio, apreciar
+                    diferentes combinações de sabores e desfrutar de
+                    uma experiência gastronômica pensada para quem
+                    aprecia a boa comida.
+                </p>
+
+            </article>
+
+            <article class="historia-restaurante">
+
+                <h3>
+                    Um ambiente para compartilhar momentos
+                </h3>
+
+                <p>
+                    Instalado em um casarão histórico na Mooca, o
+                    Don Carlini Ristorante oferece um ambiente acolhedor
+                    que convida os visitantes a aproveitar a refeição
+                    com tranquilidade. O espaço é uma opção para encontros
+                    entre amigos, refeições em família, jantares a dois
+                    e celebrações especiais.
+                </p>
+
+                <p>
+                    Mais do que apreciar a gastronomia, a proposta é
+                    proporcionar momentos agradáveis ao redor da mesa,
+                    valorizando a companhia, a hospitalidade e o prazer
+                    de compartilhar uma boa experiência.
+                </p>
+
+            </article>
+
+            <p class="mensagem-final">
+                Seja bem-vindo ao Don Carlini Ristorante!
+                Será um prazer receber você.
+            </p>
+
+        </section>
+
+        <!-- Características do restaurante -->
+        <section class="diferenciais"
+            aria-labelledby="titulo-diferenciais">
+
+            <h2 id="titulo-diferenciais">
+                O que torna nossa experiência especial
+            </h2>
+
+            <article class="diferencial">
+
+                <h3>Culinária italiana</h3>
+
+                <p>
+                    Sabores tradicionais e receitas inspiradas
+                    na gastronomia da Itália.
+                </p>
+
+            </article>
+
+            <article class="diferencial">
+
+                <h3>Massas artesanais</h3>
+
+                <p>
+                    Valorização das massas e do cuidado
+                    no preparo dos pratos.
+                </p>
+
+            </article>
+
+            <article class="diferencial">
+
+                <h3>Ambiente acolhedor</h3>
+
+                <p>
+                    Um casarão histórico no tradicional
+                    bairro da Mooca.
+                </p>
+
+            </article>
+
+            <article class="diferencial">
+
+                <h3>Momentos especiais</h3>
+
+                <p>
+                    Um espaço para reunir família,
+                    amigos e celebrar ocasiões especiais.
+                </p>
+
+            </article>
+
+        </section>
+
+        <!-- Links para conhecer o restaurante -->
+        <section class="sobre-nos-links"
+            aria-labelledby="titulo-conheca">
+
+            <h2 id="titulo-conheca">
+                Venha conhecer o Don Carlini
+            </h2>
+
+            <p>
+                Explore nosso cardápio e descubra os sabores
+                que esperam por você.
+            </p>
+
+            <div class="botoes-paginas">
+
+                <a href="cardapio.html" class="btn-opcoes">
+                    Conheça nosso Cardápio
+                </a>
+
+                <a href="reservas.html" class="btn-opcoes">
+                    Faça sua Reserva
+                </a>
+
+                <a href="contatos.html" class="btn-opcoes">
+                    Entre em Contato
+                </a>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <!-- Rodapé da página -->
+    <footer class="footer">
+
+        <p>
+            Todos os direitos reservados &copy; 2026 Don Carlini Ristorante
+        </p>
+
+    </footer>
+
+</body>
+
+</html>
