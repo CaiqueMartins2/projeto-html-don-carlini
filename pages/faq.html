@@ -12,6 +12,7 @@
 
 <body>
 
+    <!-- Cabeçalho da página -->
     <header class="header">
 
         <img
@@ -25,38 +26,59 @@
             Don Carlini Ristorante
         </div>
 
+        <!-- Menu de navegação principal -->
         <nav class="nav-bar" aria-label="Navegação principal">
+
             <ul class="nav-list">
                 <li><a href="../index.html">Home</a></li>
                 <li><a href="sobreNos.html">Sobre Nós</a></li>
                 <li><a href="cardapio.html">Cardápio</a></li>
                 <li><a href="termosUso.html">Termos de Uso</a></li>
-                <li><a href="faq.html">Perguntas Frequentes</a></li>
+                <li>
+                    <a href="faq.html" aria-current="page">
+                        Perguntas Frequentes
+                    </a>
+                </li>
                 <li><a href="trabalheCon.html">Trabalhe Conosco</a></li>
                 <li><a href="reservas.html">Reservas</a></li>
                 <li><a href="avaliacoes.html">Avaliações</a></li>
                 <li><a href="galeria.html">Galeria</a></li>
                 <li><a href="contatos.html">Contatos</a></li>
             </ul>
+
         </nav>
 
     </header>
 
+    <!-- Conteúdo principal da página -->
     <main>
 
-        <h1>Perguntas Frequentes</h1>
+        <!-- Apresentação da página -->
+        <section class="hero">
 
-        <p>
-            Confira abaixo as respostas para algumas das perguntas mais
-            frequentes sobre o Don Carlini Ristorante.
-        </p>
+            <div class="hero-conteudo">
 
+                <h1>Perguntas Frequentes</h1>
+
+                <h2>Encontre respostas para suas dúvidas.</h2>
+
+                <p>
+                    Confira abaixo as respostas para algumas das perguntas
+                    mais frequentes sobre o Don Carlini Ristorante.
+                </p>
+
+            </div>
+
+        </section>
+
+        <!-- Seção de perguntas e respostas -->
         <section class="faq" aria-labelledby="titulo-faq">
 
             <h2 id="titulo-faq">
-                Dúvidas frequentes
+                Dúvidas Frequentes
             </h2>
 
+            <!-- Pergunta 1 -->
             <article class="faq-item">
 
                 <h3>
@@ -66,11 +88,12 @@
                 <p>
                     Sim. Aceitamos reservas para almoço, jantar e ocasiões
                     especiais. Para realizar uma reserva, acesse a página
-                    "Reservas" em nosso site.
+                    <a href="reservas.html">Reservas</a> em nosso site.
                 </p>
 
             </article>
 
+            <!-- Pergunta 2 -->
             <article class="faq-item">
 
                 <h3>
@@ -79,12 +102,14 @@
 
                 <p>
                     Você pode realizar sua reserva através da página
-                    "Reservas" do nosso site, informando a data, o horário,
-                    a quantidade de pessoas e os demais dados solicitados.
+                    <a href="reservas.html">Reservas</a> do nosso site,
+                    informando a data, o horário, a quantidade de pessoas
+                    e os demais dados solicitados.
                 </p>
 
             </article>
 
+            <!-- Pergunta 3 -->
             <article class="faq-item">
 
                 <h3>
@@ -100,6 +125,7 @@
 
             </article>
 
+            <!-- Pergunta 4 -->
             <article class="faq-item">
 
                 <h3>
@@ -108,12 +134,14 @@
 
                 <p>
                     Sim. O nosso cardápio possui opções que podem atender ao
-                    público vegetariano. Consulte o cardápio ou nossa equipe
+                    público vegetariano. Consulte o
+                    <a href="cardapio.html">cardápio</a> ou nossa equipe
                     para verificar os pratos disponíveis.
                 </p>
 
             </article>
 
+            <!-- Pergunta 5 -->
             <article class="faq-item">
 
                 <h3>
@@ -132,12 +160,31 @@
 
         </section>
 
+        <!-- Orientação para outras dúvidas -->
+        <section class="faq-contato" aria-labelledby="titulo-contato">
+
+            <h2 id="titulo-contato">
+                Ainda tem dúvidas?
+            </h2>
+
+            <p>
+                Se você não encontrou a resposta que procurava, entre em
+                contato com nossa equipe.
+            </p>
+
+            <a href="contatos.html" class="btn-opcoes">
+                Entre em Contato
+            </a>
+
+        </section>
+
     </main>
 
+    <!-- Rodapé da página -->
     <footer class="footer">
 
         <p>
-            Todos os direitos reservados ©2026 Don Carlini Ristorante
+            Todos os direitos reservados &copy; 2026 Don Carlini Ristorante
         </p>
 
     </footer>
