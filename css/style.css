@@ -945,3 +945,79 @@ main form button[type="submit"]:hover {
         min-height: calc(100svh - 220px);
     }
 }
+
+/* Seção do formulário de avaliação */
+.formulario-avaliacao {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+/* Lista de avaliações */
+.avaliacoes-lista {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 24px;
+    align-items: stretch;
+}
+
+/* Cartões */
+.avaliacao-card {
+    background-color: #fffdf7;
+    border: 1px solid #e0d5bf;
+    border-top: 4px solid #d4af37;
+    border-radius: 10px;
+    padding: 25px;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.10);
+    overflow-wrap: anywhere;
+    animation: aparecerConteudo 0.5s ease-out;
+}
+
+.avaliacao-card h3 {
+    color: #8b1e1e;
+    margin-top: 0;
+}
+
+.avaliacao-card .estrelas {
+    color: #b58b16;
+    letter-spacing: 3px;
+    font-size: 18px;
+}
+
+/* Mensagens após o envio */
+.mensagem-formulario {
+    margin-top: 18px;
+    padding: 14px 16px;
+    border-radius: 5px;
+    font-size: 14px;
+    overflow-wrap: anywhere;
+}
+
+.mensagem-formulario.sucesso {
+    color: #24552b;
+    background-color: #e8f4e8;
+    border-left: 4px solid #43834a;
+}
+
+.mensagem-formulario.erro {
+    color: #7a1717;
+    background-color: #fbeaea;
+    border-left: 4px solid #8b1e1e;
+}
+
+.mensagem-formulario.aviso {
+    color: #674b08;
+    background-color: #fff4d5;
+    border-left: 4px solid #d4af37;
+}
+
+@media (max-width: 1000px) {
+    .avaliacoes-lista {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+}
+
+@media (max-width: 600px) {
+    .avaliacoes-lista {
+        grid-template-columns: 1fr;
+    }
+}
