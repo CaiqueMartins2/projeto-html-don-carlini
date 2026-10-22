@@ -4,15 +4,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Don Carlini Ristorante</title>
+
+    <title>Don Carlini Ristorante - Contatos</title>
 
     <link rel="stylesheet" href="../css/style.css">
+</head>
 
+<body>
+
+    <!-- Cabeçalho da página -->
     <header class="header">
-        <img src="../assets/img/logoDonCarlini.jpg" width="80" height="80">
-        <div class="logo">Don Carlini Ristorante</div>
-        
-        <nav class="nav-bar">
+
+        <img
+            src="../assets/img/logoDonCarlini.jpg"
+            width="80"
+            height="80"
+            alt="Logo do Don Carlini Ristorante"
+        >
+
+        <div class="logo">
+            Don Carlini Ristorante
+        </div>
+
+        <!-- Menu de navegação principal -->
+        <nav class="nav-bar" aria-label="Navegação principal">
+
             <ul class="nav-list">
                 <li><a href="../index.html">Home</a></li>
                 <li><a href="sobreNos.html">Sobre Nós</a></li>
@@ -23,22 +39,260 @@
                 <li><a href="reservas.html">Reservas</a></li>
                 <li><a href="avaliacoes.html">Avaliações</a></li>
                 <li><a href="galeria.html">Galeria</a></li>
-                <li><a href="contatos.html">Contatos</a></li>
+                <li><a href="contatos.html" aria-current="page">Contatos</a></li>
             </ul>
-        </nav>
-    </header>
-</head>
 
-<body>
-    <h1>Contatos</h1>
+        </nav>
+
+    </header>
+
+    <!-- Conteúdo principal -->
     <main>
-        <p>Telefone:(11) 3208-2024</p>
-        <p>E-mail:restaurante@doncarlini.com.br</p>
-        <p>Eventos:(11) 97060-1103</p>
-        <p>Endereço:Rua Dona Ana Néri 265 - Mooca</p>
-    </main>    
+
+        <!-- Apresentação da página -->
+        <section class="hero">
+
+            <div class="hero-conteudo">
+
+                <h1>Entre em Contato</h1>
+
+                <h2>Estamos à disposição para atender você!</h2>
+
+                <p>
+                    Entre em contato com o Don Carlini Ristorante para tirar
+                    dúvidas, fazer solicitações ou obter informações sobre
+                    nossos serviços.
+                </p>
+
+            </div>
+
+        </section>
+
+        <!-- Informações de contato -->
+        <section class="informacoes-contato"
+            aria-labelledby="titulo-informacoes">
+
+            <h2 id="titulo-informacoes">Nossas Informações</h2>
+
+            <article class="contato">
+
+                <h3>Telefone</h3>
+
+                <p>
+                    <a href="tel:+551132082024">
+                        (11) 3208-2024
+                    </a>
+                </p>
+
+            </article>
+
+            <article class="contato">
+
+                <h3>E-mail</h3>
+
+                <p>
+                    <a href="mailto:restaurante@doncarlini.com.br">
+                        restaurante@doncarlini.com.br
+                    </a>
+                </p>
+
+            </article>
+
+            <article class="contato">
+
+                <h3>Eventos</h3>
+
+                <p>
+                    <a href="tel:+5511970601103">
+                        (11) 97060-1103
+                    </a>
+                </p>
+
+            </article>
+
+            <article class="contato">
+
+                <h3>Endereço</h3>
+
+                <address>
+                    Rua Dona Ana Néri, 265 - Mooca
+                </address>
+
+            </article>
+
+        </section>
+
+        <!-- Formulário de contato -->
+        <section class="formulario-contato"
+            aria-labelledby="titulo-formulario">
+
+            <h2 id="titulo-formulario">Envie sua Mensagem</h2>
+
+            <p>
+                Preencha o formulário abaixo para entrar em contato conosco.
+            </p>
+
+            <form action="#" method="post">
+
+                <!-- Nome do visitante -->
+                <div class="campo-formulario">
+
+                    <label for="nome">Nome completo:</label>
+
+                    <input
+                        type="text"
+                        id="nome"
+                        name="nome"
+                        placeholder="Digite seu nome completo"
+                        autocomplete="name"
+                        minlength="3"
+                        maxlength="100"
+                        required
+                    >
+
+                </div>
+
+                <!-- E-mail do visitante -->
+                <div class="campo-formulario">
+
+                    <label for="email">E-mail:</label>
+
+                    <input
+                        type="email"
+                        id="email"
+                        name="email"
+                        placeholder="exemplo@email.com"
+                        autocomplete="email"
+                        maxlength="150"
+                        required
+                    >
+
+                </div>
+
+                <!-- Telefone do visitante -->
+                <div class="campo-formulario">
+
+                    <label for="telefone">Telefone:</label>
+
+                    <input
+                        type="tel"
+                        id="telefone"
+                        name="telefone"
+                        placeholder="(11) 99999-9999"
+                        autocomplete="tel"
+                        pattern="[0-9() +.-]{10,20}"
+                        title="Digite um telefone válido, utilizando números e, opcionalmente, espaços, parênteses, hífen ou sinal de mais."
+                        maxlength="20"
+                        required
+                    >
+
+                </div>
+
+                <!-- Assunto da mensagem -->
+                <div class="campo-formulario">
+
+                    <label for="assunto">Assunto:</label>
+
+                    <select
+                        id="assunto"
+                        name="assunto"
+                        required
+                    >
+
+                        <option value="" disabled selected>
+                            Selecione um assunto
+                        </option>
+
+                        <option value="duvida">
+                            Dúvidas
+                        </option>
+
+                        <option value="elogio">
+                            Elogios
+                        </option>
+
+                        <option value="sugestao">
+                            Sugestões
+                        </option>
+
+                        <option value="reclamacao">
+                            Reclamações
+                        </option>
+
+                        <option value="eventos">
+                            Informações sobre eventos
+                        </option>
+
+                        <option value="outros">
+                            Outros assuntos
+                        </option>
+
+                    </select>
+
+                </div>
+
+                <!-- Mensagem do visitante -->
+                <div class="campo-formulario">
+
+                    <label for="mensagem">Mensagem:</label>
+
+                    <textarea
+                        id="mensagem"
+                        name="mensagem"
+                        rows="6"
+                        placeholder="Escreva sua mensagem aqui..."
+                        minlength="10"
+                        maxlength="1000"
+                        required
+                    ></textarea>
+
+                </div>
+
+                <!-- Consentimento para o envio dos dados -->
+                <div class="campo-formulario">
+
+                    <input
+                        type="checkbox"
+                        id="consentimento"
+                        name="consentimento"
+                        required
+                    >
+
+                    <label for="consentimento">
+                        Autorizo o uso dos dados informados para responder
+                        à minha mensagem, conforme a Política de Privacidade.
+                    </label>
+
+                </div>
+
+                <!-- Botões do formulário -->
+                <div class="botoes-formulario">
+
+                    <button type="submit" class="btn-opcoes">
+                        Enviar Mensagem
+                    </button>
+
+                    <button type="reset" class="btn-opcoes">
+                        Limpar Formulário
+                    </button>
+
+                </div>
+
+            </form>
+
+        </section>
+
+    </main>
+
+    <!-- Rodapé da página -->
+    <footer class="footer">
+
+        <p>
+            Todos os direitos reservados &copy; 2026 Don Carlini Ristorante
+        </p>
+
+    </footer>
+
 </body>
 
-<footer>
-    Todos os direitos reservados ©2026 Don Carlini Ristorante
-</footer>
+</html>
