@@ -4,81 +4,223 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Don Carlini Ristorante</title>
+
+    <title>Don Carlini Ristorante - Trabalhe Conosco</title>
 
     <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
 
     <header class="header">
-        <img src="../assets/img/logoDonCarlini.jpg" width="80" height="80">
+
+        <img
+            src="../assets/img/logoDonCarlini.jpg"
+            width="80"
+            height="80"
+            alt="Logo do Don Carlini Ristorante"
+        >
+
         <div class="logo">Don Carlini Ristorante</div>
-        <nav class="nav-bar">
+
+        <nav class="nav-bar" aria-label="Navegação principal">
             <ul class="nav-list">
                 <li><a href="../index.html">Home</a></li>
                 <li><a href="sobreNos.html">Sobre Nós</a></li>
                 <li><a href="cardapio.html">Cardápio</a></li>
                 <li><a href="termosUso.html">Termos de Uso</a></li>
                 <li><a href="faq.html">Perguntas Frequentes</a></li>
-                <li><a href="trabalheCon.html">Trabalhe Conosco</a></li>
+                <li><a href="trabalheCon.html" aria-current="page">Trabalhe Conosco</a></li>
                 <li><a href="reservas.html">Reservas</a></li>
                 <li><a href="avaliacoes.html">Avaliações</a></li>
                 <li><a href="galeria.html">Galeria</a></li>
                 <li><a href="contatos.html">Contatos</a></li>
             </ul>
         </nav>
+
     </header>
-</head>
 
-<main>
+    <main>
 
-    <body>
-        <h1>Trabalhe Conosco</h1>
-        <p>
-            <label for="numero">
-                digite seu numero:
-            </label>
-        </p>
+        <section class="hero">
+            <div class="hero-conteudo">
 
-        <p>
-            <textarea
-                id="numero"
-                name="número"
-                rows="2"
-                cols="30"
-                minlength="5"
-                maxlength="50"
-                placeholder="(xx) xxxxx-xxxx"
-                required
-            ></textarea>
-        </p>
-        <p>
-            <label for="email">
-                digite seu email:
-            </label>
-        
-        <p>
-            <textarea
-                id="email"
-                name="email"
-                rows="2"
-                cols="30"
-                minlength="5"
-                maxlength="50"
-                placeholder="seuemail@mail.com"
-                required
-            ></textarea>
-        </p>
+                <h1>Trabalhe Conosco</h1>
 
+                <h2>Faça parte da nossa equipe!</h2>
 
-        <p>
-            <button type="submit">
-                Enviar dados
-            </button>
-        </p>
+                <p>
+                    Você tem interesse em trabalhar no Don Carlini Ristorante?
+                    Preencha o formulário abaixo para demonstrar seu interesse
+                    em futuras oportunidades.
+                </p>
 
-        <p>Entraremos em contato o mais breve possível</p>
-    </body>
-</main>
+            </div>
+        </section>
 
-<footer>
-    Todos os direitos reservados ©2026 Don Carlini Ristorante
-</footer>
+        <section class="trabalhe-conosco" aria-labelledby="titulo-candidatura">
+
+            <h2 id="titulo-candidatura">Envie seus dados</h2>
+
+            <p>
+                Queremos conhecer você! Informe seus dados de contato e a área
+                em que gostaria de trabalhar. Nossa equipe poderá entrar em
+                contato caso surja uma oportunidade compatível com seu perfil.
+            </p>
+
+            <form class="formulario-trabalhe" action="#" method="post">
+
+                <div class="campo-formulario">
+                    <label for="nome">Nome completo:</label>
+
+                    <input
+                        type="text"
+                        id="nome"
+                        name="nome"
+                        minlength="3"
+                        maxlength="100"
+                        placeholder="Digite seu nome completo"
+                        autocomplete="name"
+                        required
+                    >
+                </div>
+
+                <div class="campo-formulario">
+                    <label for="telefone">Telefone para contato:</label>
+
+                    <input
+                        type="tel"
+                        id="telefone"
+                        name="telefone"
+                        placeholder="(11) 99999-9999"
+                        autocomplete="tel"
+                        minlength="10"
+                        maxlength="20"
+                        required
+                    >
+                </div>
+
+                <div class="campo-formulario">
+                    <label for="email">E-mail:</label>
+
+                    <input
+                        type="email"
+                        id="email"
+                        name="email"
+                        maxlength="100"
+                        placeholder="seuemail@exemplo.com"
+                        autocomplete="email"
+                        required
+                    >
+                </div>
+
+                <div class="campo-formulario">
+                    <label for="area">Área de interesse:</label>
+
+                    <select id="area" name="area" required>
+                        <option value="">Selecione uma área</option>
+                        <option value="cozinha">Cozinha</option>
+                        <option value="atendimento">Atendimento ao cliente</option>
+                        <option value="garcom">Garçom ou garçonete</option>
+                        <option value="bar">Bar e bebidas</option>
+                        <option value="limpeza">Limpeza e organização</option>
+                        <option value="administrativo">Administrativo</option>
+                        <option value="outra">Outra área</option>
+                    </select>
+                </div>
+
+                <div class="campo-formulario">
+                    <label for="experiencia">Conte um pouco sobre sua experiência:</label>
+
+                    <textarea
+                        id="experiencia"
+                        name="experiencia"
+                        rows="5"
+                        maxlength="1000"
+                        placeholder="Descreva suas experiências profissionais, habilidades ou interesse em trabalhar no restaurante."
+                    ></textarea>
+                </div>
+
+                <div class="campo-formulario">
+                    <label for="curriculo">Link do currículo (opcional):</label>
+
+                    <input
+                        type="url"
+                        id="curriculo"
+                        name="curriculo"
+                        maxlength="500"
+                        placeholder="https://exemplo.com/meu-curriculo"
+                    >
+                </div>
+
+                <div class="campo-formulario">
+                    <label for="mensagem">Mensagem adicional (opcional):</label>
+
+                    <textarea
+                        id="mensagem"
+                        name="mensagem"
+                        rows="4"
+                        maxlength="1000"
+                        placeholder="Escreva uma mensagem para nossa equipe."
+                    ></textarea>
+                </div>
+
+                <div class="campo-formulario">
+                    <label>
+                        <input
+                            type="checkbox"
+                            id="consentimento"
+                            name="consentimento"
+                            value="sim"
+                            required
+                        >
+                        Declaro que as informações fornecidas são verdadeiras
+                        e estou ciente de que meus dados serão utilizados para
+                        analisar meu interesse em oportunidades de trabalho.
+                    </label>
+                </div>
+
+                <button type="submit" class="btn-opcoes">
+                    Enviar candidatura
+                </button>
+
+            </form>
+
+            <p class="mensagem-final">
+                Agradecemos seu interesse em fazer parte da nossa equipe!
+                Entraremos em contato caso surja uma oportunidade compatível
+                com seu perfil.
+            </p>
+
+        </section>
+
+        <section class="sobre-nos-links" aria-labelledby="titulo-outras-informacoes">
+
+            <h2 id="titulo-outras-informacoes">Precisa de mais informações?</h2>
+
+            <p>
+                Se tiver dúvidas, acesse nossa página de contatos para
+                conhecer outras formas de falar com o restaurante.
+            </p>
+
+            <div class="botoes-paginas">
+                <a href="contatos.html" class="btn-opcoes">
+                    Entre em Contato
+                </a>
+
+                <a href="sobreNos.html" class="btn-opcoes">
+                    Conheça o Restaurante
+                </a>
+            </div>
+
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <p>Todos os direitos reservados &copy; 2026 Don Carlini Ristorante</p>
+    </footer>
+
+</body>
+
+</html>
