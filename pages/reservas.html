@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Don Carlini Ristorante - Reservas</title>
 
     <link rel="stylesheet" href="../css/style.css">
@@ -11,6 +12,7 @@
 
 <body>
 
+    <!-- Cabeçalho da página -->
     <header class="header">
 
         <img
@@ -24,7 +26,9 @@
             Don Carlini Ristorante
         </div>
 
+        <!-- Menu de navegação principal -->
         <nav class="nav-bar" aria-label="Navegação principal">
+
             <ul class="nav-list">
                 <li><a href="../index.html">Home</a></li>
                 <li><a href="sobreNos.html">Sobre Nós</a></li>
@@ -32,61 +36,94 @@
                 <li><a href="termosUso.html">Termos de Uso</a></li>
                 <li><a href="faq.html">Perguntas Frequentes</a></li>
                 <li><a href="trabalheCon.html">Trabalhe Conosco</a></li>
-                <li><a href="reservas.html">Reservas</a></li>
+                <li>
+                    <a href="reservas.html" aria-current="page">
+                        Reservas
+                    </a>
+                </li>
                 <li><a href="avaliacoes.html">Avaliações</a></li>
                 <li><a href="galeria.html">Galeria</a></li>
                 <li><a href="contatos.html">Contatos</a></li>
             </ul>
+
         </nav>
 
     </header>
 
+    <!-- Conteúdo principal da página -->
     <main>
 
-        <h1>Reservas</h1>
+        <!-- Apresentação da página -->
+        <section class="hero">
 
-        <p>
-            Faça sua solicitação de reserva no Don Carlini Ristorante.
-            Preencha os dados abaixo e entraremos em contato para confirmar
-            a disponibilidade da mesa.
-        </p>
+            <div class="hero-conteudo">
 
-        <section class="formulario-reserva" aria-labelledby="titulo-reserva">
+                <h1>Faça sua Reserva</h1>
 
-            <h2 id="titulo-reserva">Solicite sua reserva</h2>
+                <h2>Reserve sua mesa e desfrute da culinária italiana.</h2>
+
+                <p>
+                    Faça sua solicitação de reserva no Don Carlini Ristorante.
+                    Preencha os dados abaixo e entraremos em contato para
+                    confirmar a disponibilidade da mesa.
+                </p>
+
+            </div>
+
+        </section>
+
+        <!-- Formulário de reserva -->
+        <section class="formulario-reserva"
+            aria-labelledby="titulo-reserva">
+
+            <h2 id="titulo-reserva">Solicite sua Reserva</h2>
 
             <form action="#" method="post">
 
                 <fieldset>
+
                     <legend>Dados da reserva</legend>
 
-                    <p>
-                        <label for="nome">Nome completo:</label><br>
+                    <!-- Nome do cliente -->
+                    <div class="campo-formulario">
+
+                        <label for="nome">Nome completo:</label>
+
                         <input
                             type="text"
                             id="nome"
                             name="nome"
-                            placeholder="Digite seu nome"
+                            placeholder="Digite seu nome completo"
                             autocomplete="name"
                             minlength="3"
+                            maxlength="100"
                             required
                         >
-                    </p>
 
-                    <p>
-                        <label for="email">E-mail:</label><br>
+                    </div>
+
+                    <!-- E-mail do cliente -->
+                    <div class="campo-formulario">
+
+                        <label for="email">E-mail:</label>
+
                         <input
                             type="email"
                             id="email"
                             name="email"
                             placeholder="seuemail@exemplo.com"
                             autocomplete="email"
+                            maxlength="150"
                             required
                         >
-                    </p>
 
-                    <p>
-                        <label for="telefone">Telefone:</label><br>
+                    </div>
+
+                    <!-- Telefone do cliente -->
+                    <div class="campo-formulario">
+
+                        <label for="telefone">Telefone:</label>
+
                         <input
                             type="tel"
                             id="telefone"
@@ -97,20 +134,28 @@
                             title="Digite o telefone no formato (11) 99999-9999"
                             required
                         >
-                    </p>
 
-                    <p>
-                        <label for="data">Data da reserva:</label><br>
+                    </div>
+
+                    <!-- Data da reserva -->
+                    <div class="campo-formulario">
+
+                        <label for="data">Data da reserva:</label>
+
                         <input
                             type="date"
                             id="data"
                             name="data"
                             required
                         >
-                    </p>
 
-                    <p>
-                        <label for="horario">Horário:</label><br>
+                    </div>
+
+                    <!-- Horário da reserva -->
+                    <div class="campo-formulario">
+
+                        <label for="horario">Horário:</label>
+
                         <input
                             type="time"
                             id="horario"
@@ -119,10 +164,19 @@
                             max="23:00"
                             required
                         >
-                    </p>
 
-                    <p>
-                        <label for="pessoas">Quantidade de pessoas:</label><br>
+                        <small>
+                            Horários disponíveis para solicitação:
+                            das 18h às 23h.
+                        </small>
+
+                    </div>
+
+                    <!-- Quantidade de pessoas -->
+                    <div class="campo-formulario">
+
+                        <label for="pessoas">Quantidade de pessoas:</label>
+
                         <input
                             type="number"
                             id="pessoas"
@@ -132,24 +186,36 @@
                             value="2"
                             required
                         >
-                    </p>
 
-                    <p>
-                        <label for="observacoes">Observações:</label><br>
+                    </div>
+
+                    <!-- Observações adicionais -->
+                    <div class="campo-formulario">
+
+                        <label for="observacoes">Observações:</label>
+
                         <textarea
                             id="observacoes"
                             name="observacoes"
                             rows="5"
-                            cols="35"
                             maxlength="300"
                             placeholder="Alguma observação sobre sua reserva?"
                         ></textarea>
-                    </p>
 
-                    <p>
-                        <button type="submit">Solicitar reserva</button>
-                        <button type="reset">Limpar formulário</button>
-                    </p>
+                    </div>
+
+                    <!-- Botões do formulário -->
+                    <div class="botoes-formulario">
+
+                        <button type="submit" class="btn-opcoes">
+                            Solicitar Reserva
+                        </button>
+
+                        <button type="reset" class="btn-opcoes">
+                            Limpar Formulário
+                        </button>
+
+                    </div>
 
                 </fieldset>
 
@@ -157,34 +223,48 @@
 
         </section>
 
-        <section class="informacoes-reserva" aria-labelledby="titulo-informacoes">
+        <!-- Informações importantes sobre as reservas -->
+        <section class="informacoes-reserva"
+            aria-labelledby="titulo-informacoes">
 
-            <h2 id="titulo-informacoes">Informações importantes</h2>
+            <h2 id="titulo-informacoes">
+                Informações Importantes
+            </h2>
 
-            <article>
-                <h3>Confirmação</h3>
+            <article class="informacao-reserva">
+
+                <h3>Confirmação da reserva</h3>
 
                 <p>
                     O preenchimento do formulário envia apenas uma solicitação.
-                    A reserva será confirmada após a verificação da disponibilidade.
+                    A reserva será confirmada após a verificação da
+                    disponibilidade pelo restaurante.
                 </p>
+
             </article>
 
-            <article>
+            <article class="informacao-reserva">
+
                 <h3>Horários</h3>
 
                 <p>
-                    Para garantir um melhor atendimento, informe corretamente a
-                    data, o horário e a quantidade de pessoas da sua reserva.
+                    Para garantir um melhor atendimento, informe corretamente
+                    a data, o horário e a quantidade de pessoas da sua reserva.
                 </p>
+
             </article>
 
         </section>
 
     </main>
 
-    <footer>
-        Todos os direitos reservados ©️2026 Don Carlini Ristorante
+    <!-- Rodapé da página -->
+    <footer class="footer">
+
+        <p>
+            Todos os direitos reservados &copy; 2026 Don Carlini Ristorante
+        </p>
+
     </footer>
 
 </body>
