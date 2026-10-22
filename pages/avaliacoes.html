@@ -44,255 +44,115 @@
 
     <main>
 
-        <section class="hero">
+         <section class="hero">
+        <div class="hero-conteudo">
+            <h1>Avaliações</h1>
+            <h2>Compartilhe sua experiência conosco.</h2>
+            <p>
+                Sua opinião é importante para o Don Carlini Ristorante.
+                Conte como foi sua experiência!
+            </p>
+        </div>
+    </section>
 
-            <div class="hero-conteudo">
+    <section class="avaliacoes" aria-labelledby="titulo-avaliacoes">
 
-                <h1>Avaliações</h1>
+        <h2 id="titulo-avaliacoes">O que nossos clientes dizem</h2>
 
-                <h2>A opinião dos nossos clientes é muito importante!</h2>
+        <!-- Os cartões existentes e os novos ficam nesta lista -->
+        <div
+            class="avaliacoes-lista"
+            id="lista-avaliacoes"
+            aria-live="polite"
+        >
 
-                <p>
-                    Confira as experiências de nossos clientes e compartilhe
-                    sua opinião sobre o Don Carlini Ristorante.
+            <article class="avaliacao-card">
+                <h3>Mariana</h3>
+                <p class="estrelas" aria-label="5 de 5 estrelas">
+                    ★★★★★
                 </p>
+                <p>
+                    Ambiente agradável e pratos muito saborosos.
+                    Uma ótima experiência para compartilhar com a família.
+                </p>
+                <p class="autor-avaliacao">Avaliação de cliente</p>
+            </article>
 
+            <article class="avaliacao-card">
+                <h3>Rafael</h3>
+                <p class="estrelas" aria-label="4 de 5 estrelas">
+                    ★★★★☆
+                </p>
+                <p>
+                    Gostei bastante da comida e do atendimento.
+                    Pretendo voltar em outra ocasião.
+                </p>
+                <p class="autor-avaliacao">Avaliação de cliente</p>
+            </article>
+
+        </div>
+
+    </section>
+
+    <section class="formulario-avaliacao" aria-labelledby="titulo-formulario">
+
+        <h2 id="titulo-formulario">Deixe sua avaliação</h2>
+
+        <p>
+            Conte como foi sua experiência no restaurante.
+        </p>
+
+        <form id="form-avaliacao" action="#" method="post">
+
+            <div class="campo-formulario">
+                <label for="nome-avaliacao">Seu nome:</label>
+                <input
+                    type="text"
+                    id="nome-avaliacao"
+                    name="nome"
+                    minlength="2"
+                    maxlength="80"
+                    autocomplete="name"
+                    required
+                >
             </div>
 
-        </section>
+            <div class="campo-formulario">
+                <label for="nota-avaliacao">Sua nota:</label>
+                <select id="nota-avaliacao" name="nota" required>
+                    <option value="">Selecione uma nota</option>
+                    <option value="5">5 estrelas - Excelente</option>
+                    <option value="4">4 estrelas - Muito bom</option>
+                    <option value="3">3 estrelas - Bom</option>
+                    <option value="2">2 estrelas - Regular</option>
+                    <option value="1">1 estrela - Precisa melhorar</option>
+                </select>
+            </div>
 
-        <section class="avaliacoes" aria-labelledby="titulo-avaliacoes">
+            <div class="campo-formulario">
+                <label for="comentario-avaliacao">Seu comentário:</label>
+                <textarea
+                    id="comentario-avaliacao"
+                    name="comentario"
+                    rows="5"
+                    minlength="5"
+                    maxlength="1000"
+                    placeholder="Escreva sobre sua experiência..."
+                    required
+                ></textarea>
+            </div>
 
-            <h2 id="titulo-avaliacoes">
-                O que nossos clientes dizem
-            </h2>
+            <button type="submit" class="btn-opcoes">
+                Enviar avaliação
+            </button>
 
-            <article class="avaliacao">
+        </form>
 
-                <header>
-                    <h3>Mariana Silva</h3>
-
-                    <p>
-                        <strong>Avaliação:</strong>
-                        <span aria-label="5 estrelas">
-                            ★★★★★
-                        </span>
-                    </p>
-                </header>
-
-                <p>
-                    Uma experiência excelente! O ambiente é muito agradável,
-                    o atendimento foi atencioso e o Rigatoni estava delicioso.
-                    Com certeza voltarei ao restaurante.
-                </p>
-
-            </article>
-
-            <article class="avaliacao">
-
-                <header>
-                    <h3>Gabriel Oliveira</h3>
-
-                    <p>
-                        <strong>Avaliação:</strong>
-                        <span aria-label="5 estrelas">
-                            ★★★★★
-                        </span>
-                    </p>
-                </header>
-
-                <p>
-                    Fiquei muito satisfeito com a qualidade dos pratos.
-                    A massa estava muito bem preparada e o molho tinha
-                    bastante sabor. Recomendo para quem gosta de culinária
-                    italiana.
-                </p>
-
-            </article>
-
-            <article class="avaliacao">
-
-                <header>
-                    <h3>Beatriz Santos</h3>
-
-                    <p>
-                        <strong>Avaliação:</strong>
-                        <span aria-label="4 estrelas">
-                            ★★★★☆
-                        </span>
-                    </p>
-                </header>
-
-                <p>
-                    O restaurante possui um ambiente bonito e confortável.
-                    O atendimento foi muito bom e a comida estava saborosa.
-                    Gostei bastante da experiência.
-                </p>
-
-            </article>
-
-            <article class="avaliacao">
-
-                <header>
-                    <h3>Lucas Ferreira</h3>
-
-                    <p>
-                        <strong>Avaliação:</strong>
-                        <span aria-label="5 estrelas">
-                            ★★★★★
-                        </span>
-                    </p>
-                </header>
-
-                <p>
-                    Excelente restaurante! Pedi o Fusilli à Calabresa e
-                    achei o prato muito saboroso. A sobremesa também estava
-                    ótima. Pretendo voltar em breve.
-                </p>
-
-            </article>
-
-            <article class="avaliacao">
-
-                <header>
-                    <h3>Camila Rodrigues</h3>
-
-                    <p>
-                        <strong>Avaliação:</strong>
-                        <span aria-label="5 estrelas">
-                            ★★★★★
-                        </span>
-                    </p>
-                </header>
-
-                <p>
-                    O atendimento foi muito cordial desde a chegada.
-                    O ambiente é elegante e a comida é muito bem preparada.
-                    Uma ótima opção para um jantar especial.
-                </p>
-
-            </article>
-
-        </section>
-
-        <section class="nova-avaliacao"
-            aria-labelledby="titulo-nova-avaliacao">
-
-            <h2 id="titulo-nova-avaliacao">
-                Deixe sua avaliação
-            </h2>
-
-            <p>
-                Você também pode compartilhar sua experiência no
-                Don Carlini Ristorante.
-            </p>
-
-            <form action="#" method="post">
-
-                <fieldset>
-
-                    <legend>
-                        Escreva sua avaliação
-                    </legend>
-
-                    <p>
-                        <label for="nome">
-                            Nome:
-                        </label>
-
-                        <input
-                            type="text"
-                            id="nome"
-                            name="nome"
-                            placeholder="Digite seu nome"
-                            autocomplete="name"
-                            required
-                        >
-                    </p>
-
-                    <p>
-                        <label for="email">
-                            E-mail:
-                        </label>
-
-                        <input
-                            type="email"
-                            id="email"
-                            name="email"
-                            placeholder="seuemail@exemplo.com"
-                            autocomplete="email"
-                            required
-                        >
-                    </p>
-
-                    <p>
-                        <label for="nota">
-                            Nota:
-                        </label>
-
-                        <select
-                            id="nota"
-                            name="nota"
-                            required
-                        >
-                            <option value="">
-                                Selecione uma nota
-                            </option>
-
-                            <option value="5">
-                                ★★★★★ - Excelente
-                            </option>
-
-                            <option value="4">
-                                ★★★★☆ - Muito bom
-                            </option>
-
-                            <option value="3">
-                                ★★★☆☆ - Bom
-                            </option>
-
-                            <option value="2">
-                                ★★☆☆☆ - Regular
-                            </option>
-
-                            <option value="1">
-                                ★☆☆☆☆ - Ruim
-                            </option>
-                        </select>
-                    </p>
-
-                    <p>
-                        <label for="comentario">
-                            Comentário:
-                        </label>
-                    </p>
-
-                    <p>
-                        <textarea
-                            id="comentario"
-                            name="comentario"
-                            rows="6"
-                            cols="50"
-                            minlength="10"
-                            maxlength="500"
-                            placeholder="Conte como foi sua experiência..."
-                            required
-                        ></textarea>
-                    </p>
-
-                    <p>
-                        <button type="submit">
-                            Enviar avaliação
-                        </button>
-                    </p>
-
-                </fieldset>
-
-            </form>
-
-        </section>
+    </section>
 
     </main>
+
+    <script src="../js/script.js" defer></script>
 
     <footer class="footer">
 
