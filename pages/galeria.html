@@ -4,16 +4,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Don Carlini Ristorante</title>
+
+    <title>Don Carlini Ristorante - Galeria</title>
 
     <link rel="stylesheet" href="../css/style.css">
+</head>
 
+<body>
+
+    <!-- Cabeçalho da página -->
     <header class="header">
-        <img src="../assets/img/logoDonCarlini.jpg" width="80" height="80">
 
-        <div class="logo">Don Carlini Ristorante</div>
+        <img
+            src="../assets/img/logoDonCarlini.jpg"
+            width="80"
+            height="80"
+            alt="Logo do Don Carlini Ristorante"
+        >
 
-        <nav class="nav-bar">
+        <div class="logo">
+            Don Carlini Ristorante
+        </div>
+
+        <!-- Menu de navegação principal -->
+        <nav class="nav-bar" aria-label="Navegação principal">
+
             <ul class="nav-list">
                 <li><a href="../index.html">Home</a></li>
                 <li><a href="sobreNos.html">Sobre Nós</a></li>
@@ -23,64 +38,242 @@
                 <li><a href="trabalheCon.html">Trabalhe Conosco</a></li>
                 <li><a href="reservas.html">Reservas</a></li>
                 <li><a href="avaliacoes.html">Avaliações</a></li>
-                <li><a href="galeria.html">Galeria</a></li>
+                <li>
+                    <a href="galeria.html" aria-current="page">
+                        Galeria
+                    </a>
+                </li>
                 <li><a href="contatos.html">Contatos</a></li>
             </ul>
+
         </nav>
+
     </header>
-</head>
 
-<main>
+    <!-- Conteúdo principal da página -->
+    <main>
 
-    <body>
-        
-        <h1>Galeria</h1>
+        <!-- Apresentação da galeria -->
+        <section class="hero">
 
-        <h2>Ambiente</h2>
+            <div class="hero-conteudo">
 
-        <img src="../assets/img/salao-interno.jpg.jpeg"
-            alt="Salão interno do Don Carlini Ristorante" width="400">
+                <h1>Nossa Galeria</h1>
 
-        <img src="../assets/img/fachada-entrada.jpg.jpeg"
-            alt="Entrada do Don Carlini Ristorante à noite" width="400">
+                <h2>Conheça o ambiente e os sabores do Don Carlini.</h2>
 
-        <img src="../assets/img/salao-bar.jpg"
-            alt="Salão do Don Carlini Ristorante com vista para o bar" width="400">
+                <p>
+                    Explore as imagens e os vídeos do nosso restaurante,
+                    conheça nossos ambientes e descubra um pouco da
+                    experiência gastronômica que oferecemos.
+                </p>
 
-        <img src="../assets/img/fachada-patio.jpg"
-            alt="Pátio externo do Don Carlini Ristorante" width="400">
+            </div>
 
-        <img src="../assets/img/corredor-entrada.jpg"
-            alt="Corredor de entrada do Don Carlini Ristorante" width="200">
+        </section>
 
-        <video controls width="800">
-            <source src="../assets/video/donCarliniVideo3.mp4" type="video/mp4">
-        </video>
+        <!-- Galeria do ambiente -->
+        <section class="galeria-ambiente"
+            aria-labelledby="titulo-ambiente">
 
-        <h2>Pratos</h2>
+            <h2 id="titulo-ambiente">Ambiente</h2>
 
-        <img src="../assets/img/ravioli-molho-tomate.jpg.jpeg"
-            alt="Ravioli ao molho de tomate com parmesão" width="400">
+            <div class="galeria-imagens">
 
-        <img src="../assets/img/canelone-molho-branco.jpg.jpeg"
-            alt="Canelone ao molho branco gratinado" width="400">
+                <figure class="galeria-item">
 
-        <img src="../assets/img/fettuccine-camarao.jpg"
-            alt="Fettuccine com camarão" width="400">
+                    <img
+                        src="../assets/img/salao-interno.jpg.jpeg"
+                        alt="Salão interno do Don Carlini Ristorante"
+                        width="400"
+                        loading="lazy"
+                    >
 
-        <video controls width="800">
-            <source src="../assets/video/donCarliniVideo2.mp4" type="video/mp4">
-        </video>
+                    <figcaption>
+                        Salão interno do restaurante
+                    </figcaption>
 
-        <video controls width="800">
-            <source src="../assets/video/donCarliniVideo1.mp4" type="video/mp4">
-        </video>
+                </figure>
 
-    </body>
-</main>
+                <figure class="galeria-item">
 
-<footer>
-    Todos os direitos reservados ©2026 Don Carlini Ristorante
-</footer>
+                    <img
+                        src="../assets/img/fachada-entrada.jpg.jpeg"
+                        alt="Entrada do Don Carlini Ristorante à noite"
+                        width="400"
+                        loading="lazy"
+                    >
+
+                    <figcaption>
+                        Fachada e entrada à noite
+                    </figcaption>
+
+                </figure>
+
+                <figure class="galeria-item">
+
+                    <img
+                        src="../assets/img/salao-bar.jpg"
+                        alt="Salão do Don Carlini Ristorante com vista para o bar"
+                        width="400"
+                        loading="lazy"
+                    >
+
+                    <figcaption>
+                        Salão com vista para o bar
+                    </figcaption>
+
+                </figure>
+
+                <figure class="galeria-item">
+
+                    <img
+                        src="../assets/img/fachada-patio.jpg"
+                        alt="Pátio externo do Don Carlini Ristorante"
+                        width="400"
+                        loading="lazy"
+                    >
+
+                    <figcaption>
+                        Pátio externo
+                    </figcaption>
+
+                </figure>
+
+                <figure class="galeria-item">
+
+                    <img
+                        src="../assets/img/corredor-entrada.jpg"
+                        alt="Corredor de entrada do Don Carlini Ristorante"
+                        width="200"
+                        loading="lazy"
+                    >
+
+                    <figcaption>
+                        Corredor de entrada
+                    </figcaption>
+
+                </figure>
+
+            </div>
+
+            <!-- Vídeo do ambiente -->
+            <div class="galeria-video">
+
+                <h3>Conheça nosso ambiente em vídeo</h3>
+
+                <video controls width="800">
+                    <source
+                        src="../assets/video/donCarliniVideo3.mp4"
+                        type="video/mp4"
+                    >
+
+                    Seu navegador não suporta a reprodução de vídeos.
+                </video>
+
+            </div>
+
+        </section>
+
+        <!-- Galeria dos pratos -->
+        <section class="galeria-pratos"
+            aria-labelledby="titulo-pratos">
+
+            <h2 id="titulo-pratos">Pratos</h2>
+
+            <div class="galeria-imagens">
+
+                <figure class="galeria-item">
+
+                    <img
+                        src="../assets/img/ravioli-molho-tomate.jpg.jpeg"
+                        alt="Ravioli ao molho de tomate com parmesão"
+                        width="400"
+                        loading="lazy"
+                    >
+
+                    <figcaption>
+                        Ravioli ao molho de tomate com parmesão
+                    </figcaption>
+
+                </figure>
+
+                <figure class="galeria-item">
+
+                    <img
+                        src="../assets/img/canelone-molho-branco.jpg.jpeg"
+                        alt="Canelone ao molho branco gratinado"
+                        width="400"
+                        loading="lazy"
+                    >
+
+                    <figcaption>
+                        Canelone ao molho branco gratinado
+                    </figcaption>
+
+                </figure>
+
+                <figure class="galeria-item">
+
+                    <img
+                        src="../assets/img/fettuccine-camarao.jpg"
+                        alt="Fettuccine com camarão"
+                        width="400"
+                        loading="lazy"
+                    >
+
+                    <figcaption>
+                        Fettuccine com camarão
+                    </figcaption>
+
+                </figure>
+
+            </div>
+
+            <!-- Vídeos dos pratos -->
+            <div class="galeria-video">
+
+                <h3>Vídeo gastronômico 1</h3>
+
+                <video controls width="800">
+                    <source
+                        src="../assets/video/donCarliniVideo2.mp4"
+                        type="video/mp4"
+                    >
+
+                    Seu navegador não suporta a reprodução de vídeos.
+                </video>
+
+            </div>
+
+            <div class="galeria-video">
+
+                <h3>Vídeo gastronômico 2</h3>
+
+                <video controls width="800">
+                    <source
+                        src="../assets/video/donCarliniVideo1.mp4"
+                        type="video/mp4"
+                    >
+
+                    Seu navegador não suporta a reprodução de vídeos.
+                </video>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <!-- Rodapé da página -->
+    <footer class="footer">
+
+        <p>
+            Todos os direitos reservados &copy; 2026 Don Carlini Ristorante
+        </p>
+
+    </footer>
+
+</body>
 
 </html>
