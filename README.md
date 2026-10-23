@@ -21,7 +21,7 @@ Durante o desenvolvimento do projeto un dos integrantes do grupo realizou uma vi
 
 # Estrutura de pastas
 
-entrega-cid/
+projeto-html-don-carlini/
 ├── index.html                  
 ├── README.md
 ├── Pages
@@ -34,9 +34,9 @@ entrega-cid/
     ├── sobreNos.html        # Sobre o restaurante
     ├── termosUso.html       # Termos de uso
     └── trabalheCon.html     # Trabalhe conosco
-├── img
-    ├── logoDonCarlini.jpg
-    └── prato.webp
+├── assets
+    ├── img
+    └── video
 
 # Funcionalidades
 
