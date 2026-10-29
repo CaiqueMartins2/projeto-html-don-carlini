@@ -79,7 +79,7 @@ projeto-html-don-carlini/
 
 Verificamos o código no W3C Validator usando de base o index.html, o Validator apresentou erros que tinha então os corrigimos e validamos novamente e o código não apresentava mais nenhum erro ou inconsistência e com base no index fizemos e corrigimos as outras páginas.
 
-![Resultado da validação no W3C](docs/validacao-html-w3c.png)
+![Resultado da validação no W3C](docs/validacaoW3C.png)
 
 # Como executar o projeto
 
