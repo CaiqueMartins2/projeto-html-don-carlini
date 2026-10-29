@@ -27,7 +27,7 @@ projeto-html-don-carlini/
 ├── LICENSE
 ├── assets/
 │   ├── img/
-│   │   ├── canelone-molho-branco.jpg.jpg...
+│   │   ├── canelone-molho-branco.jpg.jpeg.
 │   │   ├── corredor-entrada.jpg
 │   │   ├── fachada-entrada.jpg.jpeg
 │   │   ├── fachada-patio.jpg
