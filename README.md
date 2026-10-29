@@ -71,8 +71,8 @@ projeto-html-don-carlini/
 # Tecnologias utilizadas
 
 - HTML5 — estrutura e conteúdo de todas as páginas
-- CSS3 -  estilização das páginas, definição de cores, fontes, layouts, espaçamentos, responsividade e transições visuais.
-- JavaScript - implementação de interatividade, validações e funcionalidades dos formulários, incluindo a exibição dinâmica das avaliações enviadas pelos usuários.
+- CSS3 — estilização das páginas, definição de cores, fontes, layouts, espaçamentos, responsividade e transições visuais.
+- JavaScript — implementação de interatividade, validações e funcionalidades dos formulários, incluindo a exibição dinâmica das avaliações enviadas pelos usuários.
 
 # Validação W3C 
 
