@@ -48,9 +48,8 @@ projeto-html-don-carlini/
 ├── js/
 │   └── script.js
 ├──docs/
-│    ├── visita-empresa.jpg
-│    ├── validacao-html-w3c.png
-│    └── validacao-css-w3c.png
+│    ├── visitaEmpresa.jpg
+│    └── validacaoW3C.png
 └── pages/
     ├── avaliacoes.html
     ├── cardapio.html
