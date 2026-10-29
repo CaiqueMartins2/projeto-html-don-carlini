@@ -22,21 +22,39 @@ Durante o desenvolvimento do projeto un dos integrantes do grupo realizou uma vi
 # Estrutura de pastas
 
 projeto-html-don-carlini/
-├── index.html                  
+├── index.html
 ├── README.md
-├── Pages
-    ├── avaliacoes.html      # Avaliações de clientes
-    ├── cardapio.html        # Cardápio do restaurante
-    ├── contatos.html        # Contato
-    ├── faq.html             # Perguntas frequentes
-    ├── galeria.html         # Galeria de fotos
-    ├── reservas.html        # Reservas
-    ├── sobreNos.html        # Sobre o restaurante
-    ├── termosUso.html       # Termos de uso
-    └── trabalheCon.html     # Trabalhe conosco
-├── assets
-    ├── img
-    └── video
+├── LICENSE
+├── assets/
+│   ├── img/
+│   │   ├── canelone-molho-branco.jpg.jpg...
+│   │   ├── corredor-entrada.jpg
+│   │   ├── fachada-entrada.jpg.jpeg
+│   │   ├── fachada-patio.jpg
+│   │   ├── fettuccine-camarao.jpg
+│   │   ├── logoDonCarlini.jpg
+│   │   ├── prato.webp
+│   │   ├── ravioli-molho-tomate.jpg.jpeg
+│   │   ├── salao-bar.jpg
+│   │   └── salao-interno.jpg.jpeg
+│   └── video/
+│       ├── donCarliniVideo1.mp4
+│       ├── donCarliniVideo2.mp4
+│       └── donCarliniVideo3.mp4
+├── css/
+│   └── style.css
+├── js/
+│   └── script.js
+└── pages/
+    ├── avaliacoes.html
+    ├── cardapio.html
+    ├── contatos.html
+    ├── faq.html
+    ├── galeria.html
+    ├── reservas.html
+    ├── sobreNos.html
+    ├── termosUso.html
+    └── trabalheCon.html
 
 # Funcionalidades
 
