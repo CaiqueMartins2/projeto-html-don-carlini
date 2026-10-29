@@ -19,8 +19,6 @@ Site vitrine para apresentar o restaurante Don Carlini, com informações sobre 
 
 Durante o desenvolvimento do projeto un dos integrantes do grupo realizou uma visita ao Don Carlini Ristorante, com o objetivo de conhecer melhor o estabelecimento e obter informações que pudessem contribuir para a elaboração do projeto.
 
-![Registro da visita à empresa](docs/visita-empresa.jpg)
-
 # Estrutura de pastas
 
 projeto-html-don-carlini/
