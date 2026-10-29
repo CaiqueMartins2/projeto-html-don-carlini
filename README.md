@@ -19,6 +19,8 @@ Site vitrine para apresentar o restaurante Don Carlini, com informações sobre 
 
 Durante o desenvolvimento do projeto un dos integrantes do grupo realizou uma visita ao Don Carlini Ristorante, com o objetivo de conhecer melhor o estabelecimento e obter informações que pudessem contribuir para a elaboração do projeto.
 
+![Registro da visita à empresa](docs/visita-empresa.jpg)
+
 # Estrutura de pastas
 
 projeto-html-don-carlini/
@@ -27,7 +29,7 @@ projeto-html-don-carlini/
 ├── LICENSE
 ├── assets/
 │   ├── img/
-│   │   ├── canelone-molho-branco.jpg.jpeg.
+│   │   ├── canelone-molho-branco.jpg.jpeg
 │   │   ├── corredor-entrada.jpg
 │   │   ├── fachada-entrada.jpg.jpeg
 │   │   ├── fachada-patio.jpg
@@ -45,6 +47,10 @@ projeto-html-don-carlini/
 │   └── style.css
 ├── js/
 │   └── script.js
+├──docs/
+│    ├── visita-empresa.jpg
+│    ├── validacao-html-w3c.png
+│    └── validacao-css-w3c.png
 └── pages/
     ├── avaliacoes.html
     ├── cardapio.html
@@ -66,10 +72,14 @@ projeto-html-don-carlini/
 # Tecnologias utilizadas
 
 - HTML5 — estrutura e conteúdo de todas as páginas
+- CSS3 -  estilização das páginas, definição de cores, fontes, layouts, espaçamentos, responsividade e transições visuais.
+- JavaScript - implementação de interatividade, validações e funcionalidades dos formulários, incluindo a exibição dinâmica das avaliações enviadas pelos usuários.
 
 # Validação W3C 
 
 Verificamos o código no W3C Validator usando de base o index.html, o Validator apresentou erros que tinha então os corrigimos e validamos novamente e o código não apresentava mais nenhum erro ou inconsistência e com base no index fizemos e corrigimos as outras páginas.
+
+![Resultado da validação no W3C](docs/validacao-html-w3c.png)
 
 # Como executar o projeto
 
