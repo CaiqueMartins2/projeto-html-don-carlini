@@ -29,16 +29,25 @@ projeto-html-don-carlini/
 ├── LICENSE
 ├── assets/
 │   ├── img/
+│   │   ├── avaliacao.jpg
 │   │   ├── canelone-molho-branco.jpg.jpeg
+│   │   ├── cardapio.jpg
+│   │   ├── contatos.jpg
 │   │   ├── corredor-entrada.jpg
 │   │   ├── fachada-entrada.jpg.jpeg
 │   │   ├── fachada-patio.jpg
+│   │   ├── faq.png
 │   │   ├── fettuccine-camarao.jpg
+│   │   ├── galeria.png
 │   │   ├── logoDonCarlini.jpg
 │   │   ├── prato.webp
 │   │   ├── ravioli-molho-tomate.jpg.jpeg
+│   │   ├── reservas.png
 │   │   ├── salao-bar.jpg
-│   │   └── salao-interno.jpg.jpeg
+│   │   ├── salao-interno.jpg.jpeg
+│   │   ├── sobrenos.jpg
+│   │   ├── termouso.jpg
+│   │   └── trabcon.jpg
 │   └── video/
 │       ├── donCarliniVideo1.mp4
 │       ├── donCarliniVideo2.mp4
@@ -48,8 +57,8 @@ projeto-html-don-carlini/
 ├── js/
 │   └── script.js
 ├──docs/
-│    ├── visitaEmpresa.jpg
-│    └── validacaoW3C.png
+│    ├── validacaoW3C.png
+│    └── visita.jpeg
 └── pages/
     ├── avaliacoes.html
     ├── cardapio.html
