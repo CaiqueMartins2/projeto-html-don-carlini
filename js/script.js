@@ -104,9 +104,10 @@ document.addEventListener("DOMContentLoaded", function () {
 
             // FORMULÁRIO DE RESERVAS OU TRABALHE CONOSCO
             if (
-                formulario.id === "form-reserva" ||
-                formulario.id === "form-trabalhe"
-            ) {
+                    formulario.id === "form-reserva" ||
+                    formulario.id === "form-trabalhe" ||
+                    formulario.id === "form-contato"
+                ) {
                 evento.preventDefault();
 
                 formulario.reset();
