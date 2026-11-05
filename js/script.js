@@ -86,31 +86,41 @@ document.addEventListener("DOMContentLoaded", function () {
         });
     }
 
-    // -------------------------------------------------
+  
     // 2. OUTROS FORMULÁRIOS
-    // -------------------------------------------------
-
     const formularios = document.querySelectorAll(
         "form:not(#form-avaliacao)"
     );
 
     formularios.forEach(function (formulario) {
-
         formulario.addEventListener("submit", function (evento) {
 
+            // Verifica se os campos obrigatórios foram preenchidos
             if (!formulario.checkValidity()) {
                 evento.preventDefault();
                 formulario.reportValidity();
                 return;
             }
 
-            /*
-             * Os formulários atuais usam action="#".
-             * Isso não envia os dados a um servidor.
-             * Interceptamos o envio para evitar a falsa
-             * impressão de que os dados foram enviados.
-             */
+            // FORMULÁRIO DE RESERVAS OU TRABALHE CONOSCO
+            if (
+                formulario.id === "form-reserva" ||
+                formulario.id === "form-trabalhe"
+            ) {
+                evento.preventDefault();
 
+                formulario.reset();
+
+                mostrarMensagem(
+                    formulario,
+                    "Dados enviados com êxito! Obrigado por preencher o formulário.",
+                    "sucesso"
+                );
+
+                return;
+            }
+
+            // OUTROS FORMULÁRIOS SEM SERVIDOR
             const action = formulario.getAttribute("action");
 
             if (!action || action === "#") {
