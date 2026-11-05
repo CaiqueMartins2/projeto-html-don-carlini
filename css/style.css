@@ -896,7 +896,7 @@ main form button[type="submit"]:hover {
 .hero-reservas {
     background-image:
         linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)),
-        url("../assets/img/reservas.avif");
+        url("../assets/img/reservas.png");
 }
 
 .hero-avaliacoes {
@@ -908,7 +908,7 @@ main form button[type="submit"]:hover {
 .hero-galeria {
     background-image:
         linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)),
-        url("../assets/img/galeria.webp");
+        url("../assets/img/galeria.png");
 }
 
 .hero-contatos {
@@ -920,7 +920,7 @@ main form button[type="submit"]:hover {
 .hero-faq {
     background-image:
         linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)),
-        url("../assets/img/faq.avif");
+        url("../assets/img/faq.png");
 }
 
 .hero-termos {
