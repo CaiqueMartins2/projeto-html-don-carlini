@@ -880,3 +880,9 @@ main form button[type="submit"]:hover {
         grid-template-columns: 1fr;
     }
 }
+
+.hero-sobre {
+    background-image:
+        linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)),
+        url("../assets/img/sobrenos.jpg");
+}
