@@ -886,3 +886,52 @@ main form button[type="submit"]:hover {
         linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)),
         url("../assets/img/sobrenos.jpg");
 }
+
+.hero-cardapio {
+    background-image:
+        linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)),
+        url("../assets/img/cardapio.jpg");
+}
+
+.hero-reservas {
+    background-image:
+        linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)),
+        url("../assets/img/reservas.avif");
+}
+
+.hero-avaliacoes {
+    background-image:
+        linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)),
+        url("../assets/img/hero-avaliacoes.jpg");
+}
+
+.hero-galeria {
+    background-image:
+        linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)),
+        url("../assets/img/galeria.webp");
+}
+
+.hero-contatos {
+    background-image:
+        linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)),
+        url("../assets/img/contatos.jpg");
+}
+
+.hero-faq {
+    background-image:
+        linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)),
+        url("../assets/img/faq.avif");
+}
+
+.hero-termos {
+    background-image:
+        linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)),
+        url("../assets/img/termouso.jpg");
+}
+
+.hero-trabalhe {
+    background-image:
+        linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)),
+        url("../assets/img/trabcon.jpg");
+}
+
