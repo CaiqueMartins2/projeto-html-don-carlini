@@ -269,6 +269,8 @@ Como é um site estático, não é necessário instalar dependências.
    Botão direito em index.html > Open with Live Server
    ```
 
+Ou basta utilizar o link público do site no GitHub Pages
+
 # Conclusão
 O desenvolvimento do site institucional do Don Carlini Ristorante proporcionou ao grupo a oportunidade de aplicar, na prática, os conhecimentos adquiridos durante os estudos de desenvolvimento web.
 
